@@ -93,7 +93,7 @@ autocmd FileType html,ejs, let b:antovim_definitions = [
 
 command! Antovim call antovim#swap() | silent! call repeat#set("\<Plug>Antovim")
 
-nnoremap gs :Antovim<cr>
+nnoremap gw :Antovim<cr>
 
 let &cpo = s:keepcpo
 unlet s:keepcpo
